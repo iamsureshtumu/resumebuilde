@@ -18,7 +18,6 @@ Assignment:
 
 ![Screenshot (120)](https://user-images.githubusercontent.com/28498255/69423579-759b2980-0d4c-11ea-9de7-a3a7ebe05364.png)
 ![Screenshot (121)](https://user-images.githubusercontent.com/28498255/69423584-77fd8380-0d4c-11ea-9e2d-bef221d7a5ed.png)
-![Screenshot (115)](https://user-images.githubusercontent.com/28498255/69334846-9fd3e500-0c81-11ea-8009-4ddbbea8ec5d.png)
 ![Screenshot (116)](https://user-images.githubusercontent.com/28498255/69334862-a3676c00-0c81-11ea-9d78-844748f317ef.png)
 ![Screenshot (117)](https://user-images.githubusercontent.com/28498255/69334878-a5c9c600-0c81-11ea-898a-ea4cf15370ba.png)
 ![Screenshot (118)](https://user-images.githubusercontent.com/28498255/69334885-a8c4b680-0c81-11ea-99d4-a391efd13fbe.png)
