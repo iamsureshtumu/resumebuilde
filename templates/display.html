@@ -15,53 +15,57 @@
 
 <body>
     <br>
-    <div class="card mb-3" style="max-width: 540px;">
-        <div class="row no-gutters">
-            <div class="col-md-10">
-                <div class="card-body">
-                    <div id="editor">
-                        <center>
-                            <h1><u>{{Name}}</u></h1>
-                        </center>
-                        <hr>
-                        <h5 class="card-title">Email : {{Email}}
-                            <h5 class="card-title">Phno : {{Phno}}</h5>
-                            <hr>
-                            <h2><u>Carrer Objective</u> :</h2> <br>
-                            <h5 class="card-title">{{CarrerObjective}}</h5>
+    <table border='1px' width='80%' height='500px' align='center'>
 
-                            <hr>
-                            <h2><u>Educational Qualification</u> :</h2>
+        <tr>
+            <!-- <td align='center'> -->
+            <td>
+                <center>
+                    <h1><u>{{Name}}</u></h1>
+                </center>
+                <hr>
 
-                            <h5 class="card-title">Degree : {{Education}}</h5>
-                            <h5 class="card-title">Branch of study : {{Branch}}</h5>
-                            <h5 class="card-title">Percentage(%) : {{Percentage}}</h5>
-                            <hr>
-                            <h2><u>Skill Set</u> :</h2>
-                            <hr>
-                            <h5 class="card-title">Area of Intrest : {{Areaofinerest}}</h5>
-                            <h5 class="card-title">Technical Skills : {{Technicalskills}}</h5>
-                            <h5 class="card-title">Experience : {{Experience}}</h5>
-                            <h5 class="card-title">Projectname : {{Projectname}}</h5>
-                            <h5 class="card-title">project Description : {{Projectdescription}}</h5>
-                            <hr>
-                            <h2><u>Persol Information</u> :</h2>
-                            <hr>
-                            <h5 class="card-title">Address : {{Address}}</h5>
-                            <h5 class="card-title">Postal code : {{Postalcode}}</h5>
-                            <h5 class="card-title">Present Location : {{CurrentLocation}}</h5>
-                            <h5 class="card-title">DOB(DD/MM/YYYY) : {{DOB}}</h5>
-                            <h5 class="card-title">Gender : {{Gender}}</h5>
+                <h4 class="card-title"><b>Email &nbsp:</b> {{Email}}</h4>
+                <h4 class="card-title"><b>Phno&nbsp&nbsp:</b> {{Phno}}</h4>
+                <hr>
+                <h4><b><u>Carrer Objective</u></b> :</h4> <br>
+                <h6 class="card-title">{{CarrerObjective}}</h6>
 
-                            <!-- <p></p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
-                            <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
-                    </div>
-                </div>
-            </div>
-        </div>
+                <hr>
+                <h4><b><u>Educational Qualification</u> :</b></h4>
+
+                <h5 class="card-title">Degree &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: {{Education_Degree}}</h5>
+                <h5 class="card-title">Branch of study &nbsp: {{Branch}}</h5>
+                <h5 class="card-title">Percentage(%) &nbsp&nbsp : {{Percentage}}</h5>
+                <hr>
+                <h2><u>Skill Set</u> :</h2>
+                <hr>
+                <h5 class="card-title">Area of Intrest &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : {{Areaofinterest}}
+                </h5>
+                <h5 class="card-title">Technical Skills &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: {{Technicalskills}}
+                </h5>
+                <h5 class="card-title">Experience &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : {{Experience}}
+                </h5>
+                <h5 class="card-title">Projectname &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : {{Projectname}}
+                </h5>
+                <h4 class="card-title">project Description :
+                    <h6>{{Projectdescription}}</h6>
+                </h4>
+                <hr>
+                <h2><u>Persol Information</u> :</h2>
+                <hr>
+                <h4 class="card-title">Address :</h4>
+                <h6>{{Address}}</h6>
+                <hr>
+                <h5 class="card-title">Postal &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : {{Postalcode}}</h5>
+                <h5 class="card-title">Present Location &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: {{CurrentLocation}}</h5>
+                <h5 class="card-title">DOB(DD/MM/YYYY) &nbsp&nbsp&nbsp&nbsp&nbsp: {{DOB}}</h5>
+                <h5 class="card-title">Gender &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: {{Gender}}</h5>
+
+
+    </table>
 
 </body>
-</div>
 <center>
     <a href="{% url 'invoice' %}" class="btn btn-warning btn-sm"> view as PDF</a>
 </center>

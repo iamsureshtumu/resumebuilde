@@ -10,12 +10,12 @@ from django.template.loader import get_template
 from .utils import render_to_pdf 
 # Create your views here.
 def resume(request):
-    form=forms.ResumeForm
+    form=forms.Resume
     return render(request,'resume.html',context={'form':form})
 
 def display(request):
     if request.method=="POST":
-        form_data=forms.ResumeForm(request.POST)
+        form_data=forms.Resume(request.POST)
         #form is valid or not
         if form_data.is_valid():
             return render(request,'display.html',context=form_data.cleaned_data)
